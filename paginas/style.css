@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../imagenes/fondoWebTijera_mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cuerpoHome .cuerpoHomeDesk {
+  margin-top: 23rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cuerpoHome ul li {
+  color: #eef0f1;
+  list-style: none;
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cuerpoHome ul {
+  margin-top: 2rem;
+}
+
+.cuerpoHome footer {
+  color: #eef0f1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 13px;
+  margin-top: 12rem;
+  margin-bottom: 0px;
+}
+
+.cuerpoHome .logoInst {
+  margin-top: 5rem;
+}
+
+.cuerpoHome footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-image: url(../imagenes/fondoWebTijera_desk.png);
+    background-size: cover;
+  }
+  .cuerpoHome .cuerpoHomeDesk {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    justify-items: center;
+    margin-left: 10rem;
+    margin-top: 17rem;
+  }
+  .cuerpoHome .cuerpoHomeDesk img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  .cuerpoHome p {
+    color: aliceblue;
+  }
+  .animate__animated .animate__slideInLeft {
+    --animate-duration: 3s;
+    --animate-delay: 0.1s;
+  }
+  .cuerpoAbout .cuerpoHomeDesk {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    justify-items: center;
+    margin-left: 10rem;
+    margin-top: 17rem;
+  }
+  .cuerpoAbout .cuerpoHomeDesk img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  .cuerpoAbout p {
+    color: aliceblue;
+  }
+  .cuerpoAbout ul li {
+    color: #eef0f1;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cuerpoAbout ul {
+    margin-top: 2rem;
+  }
+  .cuerpoAbout footer {
+    color: #eef0f1;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13px;
+    margin-top: 12rem;
+    margin-bottom: 0px;
+  }
+  .cuerpoAbout .logoInst {
+    margin-top: 5rem;
+  }
+  .cuerpoAbout footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

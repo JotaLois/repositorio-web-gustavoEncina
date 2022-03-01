@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;           
+}
+body{
+    background-image: url(../imagenes/fondoWebTijera_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+ .cuerpoHome .cuerpoHomeDesk {
+     margin-top:23rem;
+     display: flex;
+     flex-direction: column;
+     align-items:center ;
+
+ }
+.cuerpoHome ul li {
+    color: rgb(238, 240, 241);
+    list-style: none;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.cuerpoHome ul{
+    margin-top: 2rem;
+}
+
+.cuerpoHome  footer{
+    color:rgb(238, 240, 241); 
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13px;
+    
+    margin-top: 12rem;
+    margin-bottom: 0px;
+}
+.cuerpoHome .logoInst {
+    margin-top: 5rem;
+}
+.cuerpoHome footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(min-width: 500px){
+
+
+    body{
+        background-image: url(../imagenes/fondoWebTijera_desk.png);
+        background-size: cover;
+        
+    }
+
+    .cuerpoHome .cuerpoHomeDesk {
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+        justify-items: center;
+        margin-left: 10rem;
+        margin-top: 17rem;
+        
+    }
+
+    .cuerpoHome .cuerpoHomeDesk img:hover{
+        transform: scale(1.2);
+        animation-timing-function: ease-in
+    }
+
+    .cuerpoHome p{
+        color: aliceblue;
+    }
+
+    .animate__animated .animate__slideInLeft {
+        --animate-duration: 3s;
+        --animate-delay: 0.1s;
+      }
+
+      .cuerpoAbout .cuerpoHomeDesk {
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+        justify-items: center;
+        margin-left: 10rem;
+        margin-top: 17rem;
+        
+    }
+
+    .cuerpoAbout .cuerpoHomeDesk img:hover{
+        transform: scale(1.2);
+        animation-timing-function: ease-in
+    }
+
+    .cuerpoAbout p{
+        color: aliceblue;
+    }
+
+    .cuerpoAbout ul li {
+        color: rgb(238, 240, 241);
+        list-style: none;
+        padding: 10px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+    .cuerpoAbout ul{
+        margin-top: 2rem;
+    }
+    
+    .cuerpoAbout  footer{
+        color:rgb(238, 240, 241); 
+        font-family: 'Bebas Neue', cursive;
+        font-size: 13px;
+        
+        margin-top: 12rem;
+        margin-bottom: 0px;
+    }
+    .cuerpoAbout .logoInst {
+        margin-top: 5rem;
+    }
+    .cuerpoAbout footer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
